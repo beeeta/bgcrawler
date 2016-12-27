@@ -8,9 +8,9 @@
 import scrapy
 
 class TestItem(scrapy.Item):
-    title = scrapy.Field
-    link = scrapy.Field
-    desc = scrapy.Field
+    title = scrapy.Field()
+    link = scrapy.Field()
+    desc = scrapy.Field()
 
 class TurtorialItem(scrapy.Item):
     # define the fields for your item here like:
